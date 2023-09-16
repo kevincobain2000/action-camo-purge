@@ -18,7 +18,7 @@
 # Using Action
 
 ```yaml
-    - uses: kevincobain2000/action-camo-purge@v1
+- uses: kevincobain2000/action-camo-purge@v1
 ```
 
 # About
