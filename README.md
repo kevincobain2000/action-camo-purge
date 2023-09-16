@@ -35,3 +35,7 @@ With this action, you can purge the camo cache for the images in `README.md`, wh
 The action picks up the branch names and org names automatically, so no need to pass any arguments.
 
 [Read more about camo](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls)
+
+## CHANGE LOG
+
+v1.0.0 - Initial release
