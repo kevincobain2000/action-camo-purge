@@ -26,11 +26,11 @@
 Github shields.io badges are cached by camo.
 This action purges the cache for the badges or any other images in `README.md`.
 
-Badges from codecov, [coveritup.app](https://coveritup.app), or any other external images in README are cached by Github using camo. This means, that the images are not loaded from the original source, but from a proxy server.
+Badges from codecov, [coveritup.app](https://coveritup.app), or any other external images in `README.md` are cached by Github using camo. This means, that the images are not loaded from the original source, but from a proxy server.
 
 Purging camo cache is necessary on regular basis, in order to show the latest values on the shield badges.
 
-With this action, you can purge the camo cache for the images in `README.md`, whenever there is a change in the repository on `push` or `pull_request` events. It can also be used on a `cron`.
+This action purges the camo cache for the images in `README.md`, whenever there is a change in the repository on `push` or `pull_request` events, for a branch. It can also be used on a `cron`.
 
 The action picks up the branch names and org names automatically, so no need to pass any arguments.
 
